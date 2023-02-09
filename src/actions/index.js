@@ -1,5 +1,5 @@
 import {createAction, createAsyncThunk} from "@reduxjs/toolkit"
-import { sendRequest } from "../../../hw6/src/Helpers/getData"
+import { sendRequest } from "../Helpers/getData"
 
 
 
