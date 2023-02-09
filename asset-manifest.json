@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Coffee_time/static/css/main.701ac116.css",
+    "main.js": "/Coffee_time/static/js/main.909ee1d9.js",
+    "static/js/787.28fc5693.chunk.js": "/Coffee_time/static/js/787.28fc5693.chunk.js",
+    "static/media/sustainable_perfecti.jpg": "/Coffee_time/static/media/sustainable_perfecti.9be5c2bbe0150602eb5f.jpg",
+    "static/media/k_chemu_snitsya_kofe.jpg": "/Coffee_time/static/media/k_chemu_snitsya_kofe.1e4d727648cdd866906d.jpg",
+    "static/media/Grid.svg": "/Coffee_time/static/media/Grid.f4005c0efb5f86b12e4df0f915dc89e3.svg",
+    "static/media/table.svg": "/Coffee_time/static/media/table.11bcfe10a32692bb96716e0b975100a4.svg",
+    "index.html": "/Coffee_time/index.html",
+    "static/media/basketIcon.svg": "/Coffee_time/static/media/basketIcon.dfa6eb4dab30df6e42e1dacfc719e791.svg",
+    "static/media/favoriteIcon.svg": "/Coffee_time/static/media/favoriteIcon.b4b026a26062793503500dca11dbe286.svg",
+    "main.701ac116.css.map": "/Coffee_time/static/css/main.701ac116.css.map",
+    "main.909ee1d9.js.map": "/Coffee_time/static/js/main.909ee1d9.js.map",
+    "787.28fc5693.chunk.js.map": "/Coffee_time/static/js/787.28fc5693.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.701ac116.css",
+    "static/js/main.909ee1d9.js"
+  ]
+}
