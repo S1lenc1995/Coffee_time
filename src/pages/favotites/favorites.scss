@@ -1,0 +1,69 @@
+.favorites-items{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 100px auto 0px auto;
+    justify-content: space-around;
+}
+
+
+.coffee-machines__items{
+    margin-bottom: 100px;
+
+    /*  overflow: hidden;  */
+    
+    &--button{
+        display: block;
+        background-color: rgb(133, 155, 148);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    }
+     & .biger-size{
+        transition: transform 500ms;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     & img{
+        margin-left: auto;
+        margin-right: auto;
+     }
+    & .biger-size:hover{
+        transform: scale(1.1);
+    } 
+
+    &--header{
+        font-size: 30px;
+        text-align: center;
+    }
+    &--article{
+        font-size: 20px;
+        text-align: center;
+    }
+    &--color{
+        font-size: 20px;
+        text-align: center;
+    } 
+    &--price{
+        font-size: 25px;
+        color: green;
+        text-align: center;
+    } 
+   
+}
+
+.star{
+    fill: #d8d8d8;
+
+  
+    &:hover{
+        fill: orange;
+    }
+}
+
+.star2{
+    fill: orange;
+}
+

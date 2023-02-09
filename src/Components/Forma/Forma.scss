@@ -1,0 +1,97 @@
+.form-wraper{
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	z-index: 10;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.form-wraper.active{
+	opacity: 1;
+	pointer-events: all;
+}
+
+
+
+.form__content{
+	padding: 20px;
+	border-radius: 12px;
+	background-color: white;
+	transform: scale(0.5);
+	transition: 0.4s all;
+}
+
+.form__content.active{
+	transform: scale(1);
+}
+
+
+.buy{
+    border: 3px solid #3a7999;
+    background: #01671f;
+    color: #f2f2f2;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    cursor: pointer;
+    &:hover {
+        border: 3px solid #3a7999;
+        color: #3a7999;
+        background: rgba(0,0,0,0);
+    }
+}
+
+.modal-order-close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    display: inline-flex; vertical-align: middle; text-align: center; box-sizing: border-box;
+    align-items: center; justify-content: center;
+    text-decoration: none !important;
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    fill: black;
+}
+
+.submit-form{
+	border: 3px solid #3a7999;
+	background: rgb(2, 42, 17);
+	color: #f2f2f2;
+	padding: 5px 40px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+	&:hover {
+		border: 3px solid #3a7999;
+		color: #3a7999;
+		background: rgba(0,0,0,0);
+	
+}
+
+}

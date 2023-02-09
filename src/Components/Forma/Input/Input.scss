@@ -1,0 +1,38 @@
+
+
+.form-item {
+	&.has-validation {
+		.form-control {
+			border-color: #dc3545;
+
+			&:hover,
+			&:focus{
+				border-color: #dc3545;
+				box-shadow: 0 0 0 0.2rem rgb(220 53 69 / 25%);
+			}
+		}
+
+		.error-message {
+			margin-top: 4px;
+			text-align: left;
+			color: #dc3545;
+		}
+	}
+}
+
+.input{
+	width: 400px;
+	height: 20px;
+	font-size: 15px;
+	&:hover{
+		cursor: pointer;
+	}
+	
+
+	
+}
+
+.input-header{
+	font-size: 20px;
+	color: black;
+}

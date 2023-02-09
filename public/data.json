@@ -1,0 +1,91 @@
+[
+    {   
+        "id": 1,
+        "name": "DeLonghi",
+        "price": 10500,
+        "img": "./img/DeLonghi.jpg",
+        "article": 245454,
+        "color": "black"
+    },
+
+    {
+        "id": 2,
+        "name": "Dr.Coffee",
+        "price": 12500,
+        "img": "./img/Dr.Coffee.jpg",
+        "article": 345634,
+        "color": "black"
+    },
+
+    {
+        "id": 3,
+        "name": "KRUPS_Essential",
+        "price": 11700,
+        "img": "./img/KRUPS_Essential.jpg",
+        "article": 245454,
+        "color": "red"
+    },
+
+    {
+        "id": 4,
+        "name": "KRUPSOpio",
+        "price": 9200,
+        "img": "./img/KRUPSOpio.jpg",
+        "article": 593848,
+        "color": "red"
+    },
+
+    {
+        "id": 5,
+        "name": "NIVONACafeRomatica",
+        "price": 15900,
+        "img": "./img/NIVONACafeRomatica.jpg",
+        "article": 348568,
+        "color": "gray"
+    },
+
+    {
+        "id": 6,
+        "name": "Philips_2000",
+        "price": 19000,
+        "img": "./img/Philips_2000.jpg",
+        "article": 123454,
+        "color": "black"
+    },
+
+    {
+        "id": 7,
+        "name": "PHILIPS_Series",
+        "price": 29000,
+        "img": "./img/PHILIPS_Series.jpg",
+        "article": 345434,
+        "color": "white"
+    },
+
+    {
+        "id": 8,
+        "name": "RZTK",
+        "price": 23000,
+        "img": "./img/RZTK.jpg",
+        "article": 345678,
+        "color": "black"
+    },
+
+    {
+        "id": 9,
+        "name": "SAECO_Lirika_Plus",
+        "price": 22000,
+        "img": "./img/SAECO_Lirika_Plus.jpg",
+        "article": 452367,
+        "color": "white"
+    },
+
+    {
+        "id": 10,
+        "name": "Saeco_FGH",
+        "price": 20000,
+        "img": "./img/saeco.jpg",
+        "article": 563465,
+        "color": "black"
+    }
+]
