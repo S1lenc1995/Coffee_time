@@ -3,7 +3,7 @@ import {useSelector, useDispatch} from 'react-redux'
 import {actionFetchCoffeeMachines} from '../../../../actions'
 import {selectorCoffeeMachines, selectorLoading, selectorBasket} from '../../../../selectors'
 import { CoffeMachineContext } from "../../../../context"
-import {ReactElement as InBasket} from "./img/ok.svg"
+import {ReactComponent as InBasket} from "./img/ok.svg"
 import PropTypes from 'prop-types';
 
 import "./CoffeeMatchines.scss"
