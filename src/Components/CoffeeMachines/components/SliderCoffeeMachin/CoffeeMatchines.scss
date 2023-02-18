@@ -1,5 +1,8 @@
 .coffee-machines__items{
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &--button{
         border: 3px solid #3a7999;
         background: #462703;
