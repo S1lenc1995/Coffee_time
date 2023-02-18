@@ -16,6 +16,21 @@
             color: #3a7999;
             background: rgba(0,0,0,0);
         }
+        &--basket{
+            border: 3px solid #8dabba;
+            background: #a47846;
+            color: #f2f2f2;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            position: relative;
+            box-sizing: border-box;
+            transition: all 500ms ease;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
     }
      & .biger-size{
@@ -82,6 +97,10 @@
 .zoom:hover {
     transform: scale(1.1); 
     cursor: pointer;
+}
+
+.in-basket{
+    margin-left: 10px;
 }
 
 

@@ -3,6 +3,7 @@ import {useSelector, useDispatch} from 'react-redux'
 import {actionFetchCoffeeMachines} from '../../../../actions'
 import {selectorCoffeeMachines, selectorLoading, selectorBasket} from '../../../../selectors'
 import { CoffeMachineContext } from "../../../../context"
+import {ReactElement as InBasket} from "./img/ok.svg"
 import PropTypes from 'prop-types';
 
 import "./CoffeeMatchines.scss"
@@ -47,7 +48,7 @@ const SliderCoffeeMachine = ({ handlerFavorite, handlerBasket, openModal, favori
                 <p className='coffee-machines__items--price'>Prise: {price} ₴</p>
 
                 { basketId.includes(id)?
-                <button className='coffee-machines__items--button'>In basket</button>
+                <button className='coffee-machines__items--button--basket'> <InBasket className="in-basket"/>In basket</button>
                 :
                 <button data-testid="chose" className='coffee-machines__items--button' onClick={() => {
                     openModal()
