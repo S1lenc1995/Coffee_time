@@ -1,7 +1,7 @@
 import { useState, useEffect,  useContext } from "react";
 import {useSelector, useDispatch} from 'react-redux'
 import {actionFetchCoffeeMachines} from '../../../../actions'
-import {selectorCoffeeMachines, selectorLoading} from '../../../../selectors'
+import {selectorCoffeeMachines, selectorLoading, selectorBasket} from '../../../../selectors'
 import { CoffeMachineContext } from "../../../../context"
 import PropTypes from 'prop-types';
 
@@ -11,12 +11,16 @@ const SliderCoffeeMachine = ({ handlerFavorite, handlerBasket, openModal, favori
     const {display} = useContext(CoffeMachineContext)
     const coffeeMachines = useSelector( selectorCoffeeMachines) 
     const loading = useSelector( selectorLoading) 
+    const basket = useSelector(selectorBasket)
     const dispatch = useDispatch();
     useEffect(()=>{
         dispatch(actionFetchCoffeeMachines())
     }, [])
 
     const favoriteId = favorites?.map(({id})=>{
+        return id
+    })
+    const basketId = basket?.map(({id})=>{
         return id
     })
 
@@ -41,11 +45,17 @@ const SliderCoffeeMachine = ({ handlerFavorite, handlerBasket, openModal, favori
                 <p className='coffee-machines__items--color'> Color: {color}</p>
                 <p className='coffee-machines__items--article'>Article: {article}</p>
                 <p className='coffee-machines__items--price'>Prise: {price} ₴</p>
-    
+
+                { basketId.includes(id)?
+                <button className='coffee-machines__items--button'>In basket</button>
+                :
                 <button data-testid="chose" className='coffee-machines__items--button' onClick={() => {
                     openModal()
                     handlerBasket({ name, img, article, color, id, price });
                 }}>Add to basket</button>
+                }
+    
+               
     
             </div>
         )) 
@@ -79,11 +89,7 @@ const SliderCoffeeMachine = ({ handlerFavorite, handlerBasket, openModal, favori
 
     return (
         <>
-        
-           {/* {loading ? 'loading' : item }  */}
-
            {display ? item : table }
-
         </>
     )
 }
